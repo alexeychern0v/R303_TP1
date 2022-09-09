@@ -1,0 +1,14 @@
+$TTL 1h
+@	IN	SOA	dnsin-01.in.iutbeziers.fr. mail.iutbeziers.fr. (
+			2022090901			; Serial
+			3600				; Refresh(6h)
+			3600				; Retry(6h)
+			3600000				; Expire(41j)
+			86400 )				; Minimum(24h)
+	IN	NS	dnsin-01.in.iutbeziers.fr.
+        IN	MX 0	serveur-smtp.in.iutbeziers.fr. 
+
+$ORIGIN 8.213.10.in-addr.arpa.
+64  IN    PTR        dnsin-01.in.iutbeziers.fr.
+65  IN    PTR        serveur-smtp.in.iutbeziers.fr.
+
